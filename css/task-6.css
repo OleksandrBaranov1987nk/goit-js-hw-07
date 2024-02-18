@@ -1,0 +1,46 @@
+input {
+    border: 1px solid #808080;
+    border-radius: 8px;
+    padding: auto;
+    width: 150px;
+    padding-left: 72px;
+    height: 40px;
+    margin-right: 16px;
+    margin-bottom: 20px;
+}
+
+#controls button[data-create] {
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 120px;
+    height: 40px;
+    background-color: #4e75ff;
+    border: none;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: #fff;
+    margin-right: 16px;
+  }
+  #controls button[data-create]:hover {
+    background-color: #6c8cff;
+  }
+  #controls button[data-destroy] {
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: #fff;
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 120px;
+    height: 40px;
+    background-color: #ff4e4e;
+    border: none;
+  }
+  #controls button[data-destroy]:hover {
+    background: #ff7070;
+  }
+  div#boxes {
+    display: flex;
+    gap: 16px;
+  }
