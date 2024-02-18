@@ -29,6 +29,9 @@ const images = [
     alt: 'Zebras on Zebra',
   },
 ];
+
+const fragment = document.createDocumentFragment();
+
 images.forEach(image => {
   const liElement = document.createElement('li');
   const imgElement = document.createElement('img');
@@ -39,5 +42,9 @@ images.forEach(image => {
   liElement.classList.add('gallery-item');
 
   liElement.append(imgElement);
-  galleryElement.append(liElement);
+
+  fragment.appendChild(liElement);
 });
+
+galleryElement.appendChild(fragment);
+
